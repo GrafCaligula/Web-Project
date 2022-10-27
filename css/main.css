@@ -4,7 +4,6 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-
   /* border: 1px solid black; */
 }
 
@@ -86,13 +85,13 @@ form {
   display: flex;
   flex-direction: row;
 }
-.inputs-left {  
+.inputs-left {
   width: 50%;
 }
 .inputs-right {
   width: 50%;
 }
-.form-input{
+.form-input {
   margin-top: 1rem;
   margin-left: 1rem;
 }
