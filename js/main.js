@@ -1,8 +1,8 @@
-for(let i = 0; i < 5; i++){
-    if(i >= 1){
-      console.log(v2);
-    }
-    const v2 = i;
-    console.log(v2);
-    console.log("--------");
+function changeColor() {
+  const element = document.getElementById("third");
+  if (element.style.backgroundColor === "rgb(87, 89, 194)") {
+    element.style.backgroundColor = "blue";
+  } else {
+    element.style.backgroundColor = "rgb(87, 89, 194)";
   }
+}

@@ -8,6 +8,7 @@
     <title>Document</title>
   </head>
   <body>
+    <script src="/js/main.js"></script>
     <header>
       <nav id="navbar">
         <ul>
@@ -28,7 +29,7 @@
         <h1>Marko Klöder</h1>
         <img src="/pics/me.jpg" alt="Ein Bild von mir" />
         <p>Das bin ich</p>
-        <a href="/results.html">Klick</a>
+        <a href="/projects.html">Meine Projekte</a>
       </div>
     </section>
     <section id="formular">
@@ -74,18 +75,8 @@
       </form>
     </section>
     <section id="third">
-      <div class="center">
+      <div class="flex" style="height: inherit; padding-bottom : 80px">
         <button id="btn-test" onclick="changeColor()">Test</button>
-        <script>
-          function changeColor() {
-            const element = document.getElementById("third");
-            if (element.style.backgroundColor === "rgb(87, 89, 194)") {
-              element.style.backgroundColor = "blue";
-            } else {
-              element.style.backgroundColor = "rgb(87, 89, 194)";
-            }
-          }
-        </script>
       </div>
     </section>
   </body>
