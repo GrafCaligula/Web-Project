@@ -6,13 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      html{
+      html {
         background-color: tan;
       }
     </style>
   </head>
   <body>
     <script src="/js/results.js"></script>
+    <h1>Ergebnisse des Formulars</h1>
+
+    <div id="testo" class="testo">
+      <script>
+        params.forEach((value, key) => {
+          // Ausgabe auf HTML-Seite
+          const elem = document.createElement("p");
+          elem.innerHTML = key + " : " + value;
+          const node = document.getElementById("testo");
+          node.appendChild(elem);
+        });
+      </script>
+    </div>
     <div>
       <a href="/index.html" style="font-size: 2rem">Back to Homepage</a>
     </div>
