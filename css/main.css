@@ -4,7 +4,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  
+
   /* border: 1px solid black; */
 }
 
@@ -76,23 +76,22 @@ label {
   width: 100vw;
   height: 100vh;
 }
-form{
+form {
   width: inherit;
   height: inherit;
 }
-.inputs{
+.inputs {
   width: inherit;
   height: 50%;
   display: flex;
   flex-direction: row;
 }
-.inputs-left{ 
+.inputs-left {
   width: 50%;
 }
-.inputs-right{
+.inputs-right {
   width: 50%;
 }
-
 
 #third {
   background-color: rgb(87, 89, 194);
