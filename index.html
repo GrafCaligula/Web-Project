@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li>
+            <a href="#main"><h1>MAIN</h1></a>
+          </li>
+          <li>
+            <a href="#formular"><h1>FORM</h1></a>
+          </li>
+          <li>
+            <a href="#third"><h1>THIRD</h1></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="main">
+      <div class="card flex">
+        <h1>Marko Klöder</h1>
+        <img src="/pics/me.jpg" alt="Ein Bild von mir" />
+        <p>Das bin ich</p>
+        <a href="/results.html">Klick</a>
+      </div>
+    </section>
+
+    <section id="formular">
+      <form action="/results.html" method="get">
+        <div class="inputs">
+          <div class="inputs-left">
+            <div>
+              <label for="firstname">Vorname: </label>
+              <input type="text" name="firstname" id="firstname" value="Markus"/>
+            </div>
+            <div>
+              <label for="lastname">Nachname: </label>
+              <input type="text" name="lastname" id="lastname" value="K."/>
+            </div>
+          </div>
+          <div class="inputs-right">
+            <div>
+              <label for="strasse">strasse</label>
+              <input type="text" name="strasse" id="strasse" />
+            </div>
+            <div>
+              <label for="hausnummer">hausnummer</label>
+              <input type="text" name="hausnummer" id="hausnummer" />
+            </div>
+            <div>
+              <label for="plz">plz</label>
+              <input type="text" name="plz" id="plz" />
+            </div>
+            <div>
+              <label for="stadt">stadt</label>
+              <input type="text" name="stadt" id="stadt" />
+            </div>
+          </div>
+        </div>
+        <div class="inputs-btns">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="third"></section>
+  </body>
+</html>
