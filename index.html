@@ -35,7 +35,7 @@
       <form action="/results.html" method="get">
         <div class="inputs">
           <div class="inputs-left">
-            <div>
+            <div class="form-input">
               <label for="firstname">Vorname: </label>
               <input
                 type="text"
@@ -44,31 +44,31 @@
                 value="Markus"
               />
             </div>
-            <div>
+            <div class="form-input">
               <label for="lastname">Nachname: </label>
               <input type="text" name="lastname" id="lastname" value="K." />
             </div>
           </div>
           <div class="inputs-right">
-            <div>
-              <label for="strasse">strasse</label>
-              <input type="text" name="strasse" id="strasse" />
+            <div class="form-input">
+              <label for="strasse">Strasse</label>
+              <input type="text" name="strasse" id="strasse" value="Steinweg"/>
             </div>
-            <div>
-              <label for="hausnummer">hausnummer</label>
-              <input type="text" name="hausnummer" id="hausnummer" />
+            <div class="form-input">
+              <label for="hausnummer">Hausnummer</label>
+              <input type="text" name="hausnummer" id="hausnummer" value="1"/>
             </div>
-            <div>
-              <label for="plz">plz</label>
-              <input type="text" name="plz" id="plz" />
+            <div class="form-input">
+              <label for="plz">PLZ</label>
+              <input type="text" name="plz" id="plz" value="12345"/>
             </div>
-            <div>
-              <label for="stadt">stadt</label>
-              <input type="text" name="stadt" id="stadt" />
+            <div class="form-input">
+              <label for="stadt">Stadt</label>
+              <input type="text" name="stadt" id="stadt" value="Hauptstadt"/>
             </div>
           </div>
         </div>
-        <div class="inputs-btns">
+        <div class="inputs-btns flex">
           <button type="submit">Submit</button>
         </div>
       </form>
